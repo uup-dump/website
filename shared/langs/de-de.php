@@ -54,9 +54,21 @@ $s['selectLanguage'] = 'Bitte wählen Sie Ihre Sprache aus';
 
 //index.php
 $s['slogan'] = 'Laden Sie UUP-Dateien von Windows Update-Servern mit Leichtigkeit herunter.';
+$s['quickOptions'] = 'Schnelle Optionen';
+$s['tHeadReleaseType'] = 'Release-Typen';
+$s['tHeadDescription'] = 'Beschreibung';
+$s['tHeadArchitectures'] = 'Architekturen';
+$s['latestPublicRelease'] = 'Letzter Build der öffentlichen Version';
+$s['latestPublicReleaseSub'] = 'Neuester aktualisierter Build für normale Benutzer.';
+$s['latestDevRelease'] = 'Neueste Dev Channel-Version';
+$s['latestDevReleaseSub'] = 'Etwas unzuverlässigere Builds mit den neuesten Funktionen.<br>Ideal für hochtechnische Benutzer.';
+$s['latestBetaRelease'] = 'Neueste Beta Channel-Version';
+$s['latestBetaReleaseSub'] = 'Zuverlässigere Builds mit den meisten verfügbaren Funktionen.<br>Ideal für Personen, die gerne früh neue Funktionen wollen.';
+$s['latestRPRelease'] = 'Neueste Release Vorschau-Build';
+$s['latestRPReleaseSub'] = 'Zuverlässiges Build für die Vorschau auf die nächste Version.<br>Ideal zum Ausprobieren kommender öffentlichen Versionen.';   
 $s['advOptions'] = 'Erweiterte Optionen';
 $s['browseBuilds'] = 'Bekannte Builds durchsuchen.';
-$s['browseBuildsSub'] = 'Wählen Sie ein bereits bekanntes Build aus und laden Sie es herunter.';
+$s['browseBuildsSub'] = 'Wählen Sie ein bereits bekanntes Build aus und laden Sie es herunter.';																			  
 $s['fetchLatest'] = 'Hole den aktuellen Build';
 $s['fetchLatestSub'] = 'Abrufen der neuesten Buildinformationen von Windows Update-Servern.';
 $s['newlyAdded'] = 'Kürzlich hinzugefügte Builds';
@@ -111,7 +123,7 @@ $s['chooseEdition'] = 'Edition auswählen';
 $s['chooseEditionDesc'] = 'Wählen Sie die gewünschte Edition aus';
 $s['allEditions'] = 'Alle Editionen';
 $s['selectEditionInfoText'] = 'Klicken Sie auf die Schaltfläche <i>Weiter</i>, um die Zusammenfassungsseite Ihrer Auswahl zu öffnen.';
-$s['additionalEditionsInfo'] = 'Wenn Sie eine zusätzliche Edition benötigen, die Sie in der rechten Tabelle finden, Um die gewünschte Edition zu wählen klicken Sie auf <i>Weiter</i>. Wählen Sie auf der Zusammenfassungsseite die Option <b>Herunterladen, zusätzliche Editionen hinzufügen und in eine ISO konvertieren</b> aus.';
+$s['additionalEditionsInfo'] = 'Wenn Sie eine zusätzliche Edition benötigen, die Sie in der rechten Tabelle finden, wählen sie die Erforderliche Edition und klicken Sie auf <i>Weiter</i>. Wählen Sie auf der Zusammenfassungsseite die Option <b>Herunterladen, zusätzliche Editionen hinzufügen und in eine ISO konvertieren</b> aus.';
 
 //download.php
 $s['summary'] = 'Zusammenfassung';
