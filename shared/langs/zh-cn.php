@@ -64,11 +64,11 @@ $s['latestDevRelease'] = '最新 Dev 通道版本';
 $s['latestDevReleaseSub'] = '具有最新功能的内部版本，运行可能不稳定。<br>适合高度技术性用户。';
 $s['latestBetaRelease'] = '最新 Beta 通道版本';
 $s['latestBetaReleaseSub'] = '具有最新可用功能的内部版本，运行较为可靠。<br>适合早期采用者。';
-$s['latestRPRelease'] = '最新发布预览版本';
+$s['latestRPRelease'] = '最新发布预览通道版本';
 $s['latestRPReleaseSub'] = '预览下一个发布版本，可靠性更好。<br>是试用即将发布版本的理想选择。';
 $s['advOptions'] = '高级选项';
 $s['browseBuilds'] = '浏览已知内部版本列表';
-$s['browseBuildsSub'] = '选择本地数据库中已知的内部版本并下载它。';
+$s['browseBuildsSub'] = '从本地数据库中选择已知的内部版本并下载。';
 $s['fetchLatest'] = '获取最新内部版本';
 $s['fetchLatestSub'] = '从 Windows Update 服务器检索最新的内部版本信息。';
 $s['newlyAdded'] = '新增的内部版本';
@@ -127,9 +127,9 @@ $s['additionalEditionsInfo'] = '如果你需要可在右侧表格中找到的其
 
 //download.php
 $s['summary'] = '摘要';
-$s['summaryDesc'] = '请检查你的选择并选择下载方式';
+$s['summaryDesc'] = '请检查你的选择，并选择下载方式';
 $s['summaryFor'] = '%s 的摘要'; //Summary for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64, English (United States), Windows 10 Pro
-$s['summaryOfSelection'] = '来自你所选择的版本摘要';
+$s['summaryOfSelection'] = '来自你选择版本的摘要';
 $s['browseList'] = '浏览文件列表';
 $s['browseListDesc'] = '打开包含 UUP 集文件的列表页面，以供手动下载。';
 $s['aria2Opt1'] = '使用 aria2 下载';
