@@ -1,4 +1,4 @@
-UUP dump website
+UUP Dump Website
 ----------------
 
 This repository contains core code of UUP dump website.
