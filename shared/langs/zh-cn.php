@@ -18,7 +18,7 @@ $s['uupdump'] = 'UUP dump';
 $s['uupdumpSub'] = '%s - UUP dump'; //Browse known builds - UUP dump
 $s['build'] = '内部版本';
 $s['arch'] = '体系结构';
-$s['ring'] = '环';
+$s['ring'] = '推送通道';
 $s['updateid'] = '更新 ID';
 $s['update'] = '更新名称';
 $s['lang'] = '语言';
@@ -88,7 +88,7 @@ $s['chooseOptions'] = '选择选项';
 $s['buildOfPretendedClient'] = '模拟 Windows 更新客户端版本号';
 $s['editionOfPretendedClient'] = '模拟系统版本';
 $s['skipAheadLabel'] = '跳跃预览通道';
-$s['skipAheadOption'] = '使用跳跃预览通道（仅限快速环）';
+$s['skipAheadOption'] = '使用跳跃预览通道（仅限 Dev 通道）';
 $s['fetchUpdates'] = '获取更新';
 $s['fetchUpdatesInfo'] = '点击<i>获取更新</i>按钮将你的请求发送到 Windows 更新服务器。';
 
@@ -122,7 +122,7 @@ $s['selectEditionFor'] = '选择 %s 的版本'; //Select edition for Windows 10 
 $s['chooseEdition'] = '选择版本';
 $s['chooseEditionDesc'] = '选择你想要的版本';
 $s['allEditions'] = '全版本';
-$s['selectEditionInfoText'] = '点击 <i>下一步</i> 按钮以打开所选内容的版本摘要页面。';
+$s['selectEditionInfoText'] = '点击<i>下一步</i>按钮以打开所选内容的版本摘要页面。';
 $s['additionalEditionsInfo'] = '如果你需要可在右侧表格中找到的其他版本，请选择指定的所需版本，然后单击<i>下一步</i>按钮。在摘要页面上，你可以在相应的下载选项下选择所需的其他版本。';
 
 //download.php
@@ -227,7 +227,7 @@ $s['a5'] = <<<FAQ
 通常，这意味着此内部版本被推送到多个通道中。<br/>
 例如，一个内部版本首先被推送到 Dev 通道，然后再被推送到 Beta 通道。<br/><br/>
 
-选择哪一个都无所谓，它们具有完全相同的内容。
+选择任何一个都无所谓，它们具有完全相同的内容。
 FAQ;
 
 $s['qUnknown'] = '我提出的问题没有在这里列出。';
