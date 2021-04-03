@@ -180,6 +180,7 @@ if($buildsAvailable) {
             <th>${s['build']}</th>
             <th>${s['arch']}</th>
             <th>${s['dateAdded']}</th>
+            <th>${s['updateid']}</th>
         </tr>
     </thead>
 EOD;
@@ -205,7 +206,8 @@ EOD;
         } else {
             echo date("Y-m-d H:i:s T", $val['created']);
         }
-
+        echo '</td><td>';
+        echo '<code>'.htmlentities($val['uuid']).'</code>';
         echo "</td></tr>\n";
     }
     echo '</table>';
